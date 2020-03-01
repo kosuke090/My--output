@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url(c:\Users\kosuk\OneDrive\デスクトップ\Portfolio\src\css\quiz.css);
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Serif JP', serif;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.header {
+  background-color: aqua;
+  position: fixed;
+  width: 100%;
+  height: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0 0 10px #292525;
+          box-shadow: 0 0 10px #292525;
+  min-height: 10px;
+}
+
+.header h1 {
+  font-size: 40px;
+  margin-left: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.header ul {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header ul li {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #d0c1c1;
+  border-radius: 20px;
+  width: 50%;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.header ul a {
+  color: white;
+}
+
+.header ul a:hover {
+  color: black;
+}
+
+.container {
+  padding-top: 55px;
+}
+
+.point {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  background-color: blueviolet;
+  border: 1px solid aqua;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  opacity: 0.3;
+  pointer-events: none;
+}
+/*# sourceMappingURL=app.css.map */
